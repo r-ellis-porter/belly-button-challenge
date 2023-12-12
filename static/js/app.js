@@ -47,15 +47,13 @@ function bubbleChart(sample) {
             mode: 'markers',
             marker: {
                 size: selection.sample_values,
-                //sizeref: 2.0 * Math.max(selection.sample_values)/(10**2),
-                //sizemode: 'area',
-                color: selection.sample_values,
+                color: selection.otu_ids,
                 colorscale: 'Phase'
             }
         };
         let layout = {
-            height: 600,
-            width: 1500,
+            height: 800,
+            width: 1200,
             xaxis: {title: {text: 'OTU IDs'}}
         };
         Plotly.newPlot('bubble', [trace], layout);
@@ -90,7 +88,6 @@ function gaugeChart(sample) {
             mode: 'gauge+number',
             gauge: {
                 axis: {range: [0,9], tickmode: 'linear', tickwidth: 1},
-                // added
                 bar: {color: 'darkblue'},
                 bgcolor: 'white',
                 borderwidth: 2,
@@ -109,19 +106,8 @@ function gaugeChart(sample) {
             }
         };
         let layout = {
-            width: 400,
-            height: 400,
-            annotations: {
-                // added
-                ax: 0.5,
-                ay: 0,
-                x: 0.5+0.7 * Math.cos(Math.PI/180*93.5),
-                y: 0.7 * Math.sin(Math.PI/180*93.5),
-                xref: 'x',
-                yref: 'y',
-                showarrow: true,
-                arrowhead: 8
-            }
+            width: 500,
+            height: 500,
         }
         Plotly.newPlot('gauge', [trace], layout);
     })
