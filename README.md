@@ -18,21 +18,21 @@ This project involves creating an interactive dashboard that displays various vi
 
 ## Interactive Charts
 
+*Horizontal bar chart displaying top 10 OTUs in a selected individual.*
+
 ![Horizontal Bar Chart](Images/bar_chart.PNG)
 
-*Screenshot of the horizontal bar chart displaying top 10 OTUs in a selected individual.*
+*Bubble chart displaying OTU distribution across samples.*
 
 ![Bubble Chart](Images/bubble_chart.PNG)
 
-*Screenshot of the bubble chart displaying OTU distribution across samples.*
+*Selection dropdown and Metadata panel displaying demographic information of the selected individual.*
 
 ![Metadata Panel](Images/metadata_panel.PNG)
 
-*Screenshot of the metadata panel displaying demographic information of the selected individual.*
+*Gauge chart displaying the weekly washing frequency of the individual.*
 
 ![Gauge Chart](Images/gauge_chart.PNG)
-
-*Screenshot of the gauge chart displaying the weekly washing frequency of the individual.*
 
 ## Technical Details
 
