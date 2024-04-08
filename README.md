@@ -16,28 +16,21 @@ This project involves creating an interactive dashboard that displays various vi
 - Display of sample metadata, including demographic information, for the selected individual.
 - A gauge chart displaying the weekly washing frequency of the individual.
 
-## Important Findings
+## Interactive Charts
 
-- The bar chart provides a clear visualization of the top 10 OTUs found in each individual, allowing users to identify prevalent microbial species.
-- The bubble chart offers insights into the distribution of OTUs across samples, with marker size indicating abundance and marker colors representing different OTUs.
-- The metadata panel provides demographic information about the selected individual, allowing users to contextualize the microbial data.
-- The gauge chart visualizes the weekly washing frequency of the individual, providing additional context to understand the microbial diversity.
-
-## Screenshots
-
-![Horizontal Bar Chart](screenshots/bar_chart.png)
+![Horizontal Bar Chart](Images/bar_chart.PNG)
 
 *Screenshot of the horizontal bar chart displaying top 10 OTUs in a selected individual.*
 
-![Bubble Chart](screenshots/bubble_chart.png)
+![Bubble Chart](Images/bubble_chart.png)
 
 *Screenshot of the bubble chart displaying OTU distribution across samples.*
 
-![Metadata Panel](screenshots/metadata_panel.png)
+![Metadata Panel](Images/metadata_panel.png)
 
 *Screenshot of the metadata panel displaying demographic information of the selected individual.*
 
-![Gauge Chart](screenshots/gauge_chart.png)
+![Gauge Chart](Images/gauge_chart.png)
 
 *Screenshot of the gauge chart displaying the weekly washing frequency of the individual.*
 
@@ -46,10 +39,9 @@ This project involves creating an interactive dashboard that displays various vi
 ### Files Structure
 
 - `index.html`: HTML file containing the structure of the dashboard.
-- `app.js`: JavaScript file containing the logic for reading data, creating visualizations, and handling user interactions.
-- `bonus.js`: JavaScript file containing the logic for the optional gauge chart.
 - `/static`: Directory containing static files such as CSS and JavaScript.
   - `/js`: Directory containing JavaScript files.
+    - `app.js`: JavaScript file containing the logic for reading data, creating visualizations, and handling user interactions.
 
 ### Dependencies
 
